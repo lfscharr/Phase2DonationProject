@@ -1,0 +1,92 @@
+{
+  "npos": [
+    {
+      "id": 1,
+      "name": "Domino Service Dogs",
+      "image": "https://dominoservicedogs.com/wp-content/uploads/2023/05/thumbnail.jpg",
+      "type": "Animals",
+      "website": "https://dominoservicedogs.com/",
+      "description": "This organization, founded in 2012, provides the resources for those with disabilities to train their own service dogs, implementing a reward system.",
+      "donationAmount": ""
+    },
+    {
+      "id": 2,
+      "name": "Peppers Senior Dog Sanctuary",
+      "image": "https://psds.org/cdn/shop/files/psds-logo.v1.png?v=1677598096",
+      "type": "Animals",
+      "website": "https://psds.org/",
+      "description": "Pepper's Senior Dog Sanctuary provides a compassionate, loving, lifelong home where elderly dogs are cared for during their good days, bad days, and last days.",
+      "donationAmount": ""
+    },
+    {
+      "id": 3,
+      "name": "Dumb Friends League",
+      "image": "https://www.ddfl.org/wp-content/themes/gt-tailwind/img/logo.png",
+      "type": "Animals",
+      "website": "https://www.ddfl.org/",
+      "description": "The Dumb Friends League has been committed to helping animals live better lives since 1910. Working with the compassionate community of Denver they hope to end pet homelessness and animal suffering.",
+      "donationAmount": ""
+    },
+    {
+      "id": 4,
+      "name": "Food Bank of the Rockies",
+      "image": "https://www.foodbankrockies.org/wp-content/uploads/2021/03/FBR_colorado_fullcolor.svg",
+      "type": "Food",
+      "website": "https://www.foodbankrockies.org/",
+      "description": "Food Bank of the Rockies provides food and necessities to people in need through signature programs and by teaming up with hundreds of Hunger Relief Partners to serve communities across Colorado and Wyoming, the largest food bank coverage area in the contiguous United States.",
+      "donationAmount": ""
+    },
+    {
+      "id": 5,
+      "name": "Project Angel Heart",
+      "image": "https://www.projectangelheart.org/wp-content/uploads/2021/05/cropped-cropped-PAH_0002_Logo_3_horiz_cmyk.png",
+      "type": "Food",
+      "website": "https://www.projectangelheart.org/",
+      "description": "The mission of Project Angel Heart is to deliver nutritious meals to improve the quality of life, at no cost, for those coping with life-threatening illness.",
+      "donationAmount": ""
+    },
+    {
+      "id": 6,
+      "name": "Metro Caring",
+      "image": "https://images.squarespace-cdn.com/content/v1/5914e19f3a041161b1298fc0/d012ae05-2e70-4b4d-ad83-062a35954614/MetroCaring_Logo_tag_engspanish_vert_clr.png?format=1500w",
+      "type": "Food",
+      "website": "https://www.metrocaring.org/",
+      "description": "At Metro Caring, we're meeting people's immediate food needs while addressing the root cause of hunger: poverty. We provide nutritious groceries to our neighbors, and also offer comprehensive anti-hunger resources so that families can break the cycle of poverty.",
+      "donationAmount": ""
+    },
+    {
+      "id": 7,
+      "name": "Second Wind Fund",
+      "image": "https://thesecondwindfund.org/wp-content/uploads/2020/11/Second-Wind-New-Logo-White-TAGLINE-768x289.png",
+      "type": "Mental Health",
+      "website": "https://www.thesecondwindfund.org/",
+      "description": "The mission of Second Wind Fund is to decrease the incidence of suicide in children and youth by removing the financial and social barriers to treatment. Second Wind Fund believes that every child and youth at risk of suicide should have access to the mental health treatment they need. We match children and youth at risk for suicide with licensed therapists in their communities. If a financial or social barrier to treatment is present, we pay for up to 12 sessions of therapy from one of our specialized network providers. Our unique program helps referred youth discover hope and healing in their lives.",
+      "donationAmount": ""
+    },
+    {
+      "id": 8,
+      "name": "Embark Peer Coach Academy",
+      "image": "https://static.wixstatic.com/media/2e051e_4a1ff99393e0443e9d1708f4bca57163~mv2.webp",
+      "type": "Mental Health",
+      "website": "https://www.embarkpca.net/",
+      "description": "EmbarkPCA is committed to the recovery community. They provide resources to recovery housing and counseling programs, finding a coach, recovery coach training options, upcoming sober social activities, and volunteer trainings to help communities find the support they seek.",
+      "donationAmount": ""
+    },
+    {
+      "name": "test",
+      "image": "",
+      "type": "",
+      "website": "",
+      "description": "",
+      "id": 9
+    },
+    {
+      "name": "test",
+      "image": "",
+      "type": "",
+      "website": "",
+      "description": "",
+      "id": 10
+    }
+  ]
+}
