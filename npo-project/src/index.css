@@ -1,39 +1,65 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+#video-container {
+  position: fixed;
+  top:auto;
+  bottom: auto;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-position: center;
+  object-fit: cover;
+  opacity: 0.8;
 }
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: black;
   text-decoration: inherit;
 }
 a:hover {
   color: #535bf2;
 }
 
-body {
+/* body {
   margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-}
+} */
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  margin-top: 30px;
+  margin-bottom: 200px;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+.h-50 {
+  height: 100px;
+}
+
+.w-80 {
+  width: 150px;
+}
+
+.npo-list-container {
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap; 
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: transparent;
+  width: 100%;
+  gap: 30px;
 }
 
 button {
@@ -66,4 +92,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} 

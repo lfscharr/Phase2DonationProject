@@ -1,26 +1,18 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 
-function NpoCard({npo}) {
-    const {name, image, website, description} = npo
-    const [favorite, setFavorite] = useState(true)
+function NpoCard({ npo }) {
+  const { name, image, website, description, type } = npo;
+  
 
-    function handleFavorite(){
-        setFavorite(!favorite)
-    }
-
-    return (
-        <li className="card">
-          <img src={image} alt={name} />
-          <h4>{name}</h4>
-          <p>Description: {description}</p>
-          <p>Website: {website}</p>
-          {favorite ? (
-            <button className="primary" onClick={handleFavorite}>Favorite!</button>
-          ) : (
-            <button onClick={handleFavorite}>Favorite?</button>
-          )}
-        </li>
-      );
+  return (
+    <li id="npo-card" 
+      className="border-black border-solid border-4 mx-3 my-30 bg-gray-300">
+      <span class="inline-flex items-baseline">
+        <img class="h-50 w-80 " src={image} alt={name} />
+      </span>
+      <h4>{type}</h4>
+    </li>
+  );
 }
 
 export default NpoCard;

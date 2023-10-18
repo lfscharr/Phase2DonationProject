@@ -1,6 +1,4 @@
 import { useState, useEffect } from "react";
-// import reactLogo from "./assets/react.svg";
-// import viteLogo from "/vite.svg";
 import "./App.css";
 import {
   createBrowserRouter,
@@ -11,7 +9,6 @@ import {
 import Home from "./pages/Home";
 import RootLayout from "./layout/RootLayout";
 import About from "./pages/About";
-import NpoPage from "./components/NpoPage";
 import FormLayout from "./layout/FormLayout";
 import NewNpoForm from "./components/NewNpoForm";
 
@@ -40,12 +37,17 @@ function App() {
     createRoutesFromElements(
       <Route path="/" element={<RootLayout />}>
         <Route index element={<Home npos={displayNpos} search={search} setSearch={setSearch}/>} />
-        <Route path="/about" element={<About />} />
+        <Route path="/about" element={<About npos={npos} />} />
         <Route path="new" element={<NewNpoForm handleAddNpo={handleAddNpo} />}></Route>
       </Route>
     )
   );
-  return <RouterProvider router={router} />;
+  return (
+      <>
+      <RouterProvider router={router} />
+      </>
+  
+  )
 }
 
 export default App;

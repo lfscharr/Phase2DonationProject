@@ -4,7 +4,7 @@ function RootLayout() {
   return (
     <div>
       <header>
-        <nav>
+        <nav class="flex justify-evenly">
           <NavLink to="/">Home </NavLink>
           <NavLink to="/about">About </NavLink>
           <NavLink to="/new">New Organization </NavLink>

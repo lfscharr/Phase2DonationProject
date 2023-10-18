@@ -57,7 +57,7 @@
     {
       "id": 7,
       "name": "Second Wind Fund",
-      "image": "https://thesecondwindfund.org/wp-content/uploads/2020/11/Second-Wind-New-Logo-White-TAGLINE-768x289.png",
+      "image": "data:image/png;base64,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",
       "type": "Mental Health",
       "website": "https://www.thesecondwindfund.org/",
       "description": "The mission of Second Wind Fund is to decrease the incidence of suicide in children and youth by removing the financial and social barriers to treatment. Second Wind Fund believes that every child and youth at risk of suicide should have access to the mental health treatment they need. We match children and youth at risk for suicide with licensed therapists in their communities. If a financial or social barrier to treatment is present, we pay for up to 12 sessions of therapy from one of our specialized network providers. Our unique program helps referred youth discover hope and healing in their lives.",
@@ -71,30 +71,6 @@
       "website": "https://www.embarkpca.net/",
       "description": "EmbarkPCA is committed to the recovery community. They provide resources to recovery housing and counseling programs, finding a coach, recovery coach training options, upcoming sober social activities, and volunteer trainings to help communities find the support they seek.",
       "donationAmount": ""
-    },
-    {
-      "name": "test",
-      "image": "",
-      "type": "",
-      "website": "",
-      "description": "",
-      "id": 9
-    },
-    {
-      "name": "test",
-      "image": "",
-      "type": "",
-      "website": "",
-      "description": "",
-      "id": 10
-    },
-    {
-      "name": "test",
-      "image": "",
-      "type": "",
-      "website": "",
-      "description": "test",
-      "id": 11
     }
   ]
 }

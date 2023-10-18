@@ -5,8 +5,16 @@ import Search from "../components/Search";
 function Home({ npos, search, setSearch }) {
   return (
     <div>
-      <Search search={search} onSearch={setSearch} />
+      <div id="video-container">
+       <video id="video" src= "src/components/_import_61da6bd480f039.79703158_FPpreview.mp4"
+            autoPlay="{true}" loop muted> 
+        </video> 
+        </div>
+        <h1>Featured Organizations</h1>
       <NpoList npos={npos} />
+      <Search search={search} onSearch={setSearch}/>
+      
+      
     </div>
   );
 }

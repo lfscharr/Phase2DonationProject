@@ -2,7 +2,7 @@ import React from "react";
 
 function Search({search, onSearch}) {
   return (
-    <div className="searchbar">
+    <div className="my-40">
       <label htmlFor="search">Search Organizations:</label>
       <input
         type="text"
