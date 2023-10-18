@@ -30,9 +30,9 @@ function About({ npos }) {
               <br></br>
               <>
               {favorite ? (
-                <button onClick={() =>handleFavorite(index)}>Favorite!</button>
+                <button onClick={() =>handleFavorite(index)}>💞</button>
               ) : (
-                <button onClick={()=>handleFavorite(index)}>Favorite?</button>
+                <button onClick={()=>handleFavorite(index)}>🖤</button>
               )}
               </>
             </p>
