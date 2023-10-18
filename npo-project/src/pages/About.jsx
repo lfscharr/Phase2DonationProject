@@ -4,15 +4,18 @@ import { Link } from "react-router-dom";
 function About({ npos }) {
   console.log(npos);
 
-  const [favorite, setFavorite] = useState(false);
+  const [favorites, setFavorites] = useState([]);
 
-  function handleFavorite() {
-    setFavorite(!favorite);
+  function handleFavorite(index) {
+    const newFavorites = [...favorites]
+    newFavorites[index] = !newFavorites[index]
+    setFavorites(newFavorites);
   }
 
   return (
     <div>
-      {npos.map((org) => {
+      {npos.map((org,index) => {
+        const favorite = favorites[index] || false
         return (
           <div>
             <p className="card ">
@@ -21,15 +24,17 @@ function About({ npos }) {
               </span>
               <h2>{org.name}</h2>
               <p>{org.description}</p>
-              <button><a href={org.website}>Website</a></button>
+              <button>
+                <a href={org.website}>Website</a>
+              </button>
               <br></br>
+              <>
               {favorite ? (
-                <button className="text-center" onClick={handleFavorite}>
-                  Favorite!
-                </button>
+                <button onClick={() =>handleFavorite(index)}>Favorite!</button>
               ) : (
-                <button onClick={handleFavorite}>Favorite?</button>
+                <button onClick={()=>handleFavorite(index)}>Favorite?</button>
               )}
+              </>
             </p>
           </div>
         );

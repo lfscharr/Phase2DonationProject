@@ -7,7 +7,8 @@
       "type": "Animals",
       "website": "https://dominoservicedogs.com/",
       "description": "This organization, founded in 2012, provides the resources for those with disabilities to train their own service dogs, implementing a reward system.",
-      "donationAmount": ""
+      "donationAmount": "",
+      "favorite": false
     },
     {
       "id": 2,
@@ -16,7 +17,8 @@
       "type": "Animals",
       "website": "https://psds.org/",
       "description": "Pepper's Senior Dog Sanctuary provides a compassionate, loving, lifelong home where elderly dogs are cared for during their good days, bad days, and last days.",
-      "donationAmount": ""
+      "donationAmount": "",
+      "favorite": false
     },
     {
       "id": 3,
@@ -25,7 +27,8 @@
       "type": "Animals",
       "website": "https://www.ddfl.org/",
       "description": "The Dumb Friends League has been committed to helping animals live better lives since 1910. Working with the compassionate community of Denver they hope to end pet homelessness and animal suffering.",
-      "donationAmount": ""
+      "donationAmount": "",
+      "favorite": false
     },
     {
       "id": 4,
@@ -34,7 +37,8 @@
       "type": "Food",
       "website": "https://www.foodbankrockies.org/",
       "description": "Food Bank of the Rockies provides food and necessities to people in need through signature programs and by teaming up with hundreds of Hunger Relief Partners to serve communities across Colorado and Wyoming, the largest food bank coverage area in the contiguous United States.",
-      "donationAmount": ""
+      "donationAmount": "",
+      "favorite": false
     },
     {
       "id": 5,
@@ -43,7 +47,8 @@
       "type": "Food",
       "website": "https://www.projectangelheart.org/",
       "description": "The mission of Project Angel Heart is to deliver nutritious meals to improve the quality of life, at no cost, for those coping with life-threatening illness.",
-      "donationAmount": ""
+      "donationAmount": "",
+      "favorite": false
     },
     {
       "id": 6,
@@ -52,7 +57,8 @@
       "type": "Food",
       "website": "https://www.metrocaring.org/",
       "description": "At Metro Caring, we're meeting people's immediate food needs while addressing the root cause of hunger: poverty. We provide nutritious groceries to our neighbors, and also offer comprehensive anti-hunger resources so that families can break the cycle of poverty.",
-      "donationAmount": ""
+      "donationAmount": "",
+      "favorite": false
     },
     {
       "id": 7,
@@ -61,7 +67,8 @@
       "type": "Mental Health",
       "website": "https://www.thesecondwindfund.org/",
       "description": "The mission of Second Wind Fund is to decrease the incidence of suicide in children and youth by removing the financial and social barriers to treatment. Second Wind Fund believes that every child and youth at risk of suicide should have access to the mental health treatment they need. We match children and youth at risk for suicide with licensed therapists in their communities. If a financial or social barrier to treatment is present, we pay for up to 12 sessions of therapy from one of our specialized network providers. Our unique program helps referred youth discover hope and healing in their lives.",
-      "donationAmount": ""
+      "donationAmount": "",
+      "favorite": false
     },
     {
       "id": 8,
@@ -70,7 +77,8 @@
       "type": "Mental Health",
       "website": "https://www.embarkpca.net/",
       "description": "EmbarkPCA is committed to the recovery community. They provide resources to recovery housing and counseling programs, finding a coach, recovery coach training options, upcoming sober social activities, and volunteer trainings to help communities find the support they seek.",
-      "donationAmount": ""
+      "donationAmount": "",
+      "favorite": false
     }
   ]
 }
