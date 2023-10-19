@@ -6,6 +6,8 @@ function NewNpoForm({handleAddNpo}) {
     const [type, setType] = useState("")
     const [website, setWebsite] = useState("")
     const [description, setDescription] = useState("")
+    const [isSubmitted, setIsSubmitted] = useState(false);
+    const [confirmationMessage, setConfirmationMessage] = useState("");
 
     function handleSubmit(e){
         e.preventDefault()
@@ -36,11 +38,13 @@ function NewNpoForm({handleAddNpo}) {
             setType("")
             setWebsite("")
             setDescription("")
+            setIsSubmitted(true);
+            setConfirmationMessage("╱╲❀╱╲Organization added successfully!╱╲╱╲❀╱╲");
         })
     }
     return (
     <div className="new-npo-form">
-      <h2>New Organization</h2>
+      <h2 class="text-center">New Organization Form</h2>
       <form onSubmit={handleSubmit}>
         <input type="text" name="name" placeholder="Name" value={name} onChange={(e)=> setName(e.target.value)} />
         <input type="text" name="image" placeholder="Image URL" value={image} onChange={(e)=> setImage(e.target.value)}/>
@@ -49,6 +53,7 @@ function NewNpoForm({handleAddNpo}) {
         <input type="text" name="description" placeholder="Description" value={description} onChange={(e)=> setDescription(e.target.value)} />
         <button type="submit">Add Organization!</button>
       </form>
+        {isSubmitted && <p class="font-extrabold text-red-600">{confirmationMessage}</p>}
     </div>
     );
 }

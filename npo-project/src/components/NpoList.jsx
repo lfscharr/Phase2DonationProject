@@ -1,16 +1,23 @@
 import React from "react";
-import NpoCard from "./NpoCard.jsx";
+import NpoCard from "./NpoCard";
+import { Link } from "react-router-dom";
 
 function NpoList({ npos }) {
   return (
     <div className="npo-list-container">
-      <ul className="flex flex-row ">
-        {npos.map((npo) => {
-          return <NpoCard key={npo.id} npo={npo} />;
-        })}
+      <ul className="flex flex-row">
+        {npos.map((npo) => (
+          <li key={npo.id}>
+            <Link to={`${npo.website}`}>
+              <NpoCard npo={npo} />
+            </Link>
+          </li>
+        )
+        )};
       </ul>
     </div>
   );
 }
 
 export default NpoList;
+

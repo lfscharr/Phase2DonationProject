@@ -4,8 +4,9 @@
 
 #video-container {
   position: fixed;
-  top:auto;
-  bottom: auto;
+  top:0;
+  left: 0;
+  /* bottom: auto; */
   width: 100%;
   height: 100%;
   z-index: -1;
@@ -48,16 +49,29 @@ h2 {
   width: 150px;
 }
 
+p {
+  padding-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 .npo-list-container {
   display: flex;
-  flex-direction: row; 
-  flex-wrap: wrap; 
-  flex-flow: row nowrap;
+  /* flex-direction: row;  */
+  /* flex-wrap: wrap;  */
+  /* flex-flow: row nowrap; */
   justify-content: space-around;
   align-items: center;
   background-color: transparent;
-  width: 100%;
+  width: 100vw;
+  height: fit-content;
   gap: 30px;
+}
+
+.text-center {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-right: 50px;
 }
 
 button {

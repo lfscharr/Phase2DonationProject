@@ -4,7 +4,7 @@ function NpoCard({ npo }) {
   const { name, image, website, description, type } = npo;
 
   return (
-    <div>
+    <div class="h-50 w-80">
       <li
         id="npo-card"
         className="border-black border-solid border-4 mx-3 my-30 bg-gray-300"

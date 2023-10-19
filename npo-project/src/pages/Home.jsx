@@ -1,6 +1,7 @@
 import React from "react";
 import NpoList from "../components/NpoList";
 import Search from "../components/Search";
+import { Link } from "react-router-dom";
 
 function Home({ npos, search, setSearch }) {
   return (
@@ -11,8 +12,10 @@ function Home({ npos, search, setSearch }) {
         </video> 
         </div>
         <h1>Featured Organizations</h1>
+        <div>
       <NpoList npos={npos} />
       <Search search={search} onSearch={setSearch}/>
+      </div>
       
       
     </div>
