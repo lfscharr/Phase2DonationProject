@@ -1,8 +1,40 @@
-# React + Vite
+# Non-Profit Organization (NPO) Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to our Non-Profit Organization (NPO) project! This application allows you to explore featured NPOs, search through them, visit their websites, and even add your own non-profit organization to the database. This README provides you with essential information on how to get started with the application.
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+  - [Running the Application](#running-the-application)
+- [Contribute](#contribute)
+- [License](#license)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
+
+### Prerequisites
+Before you begin, ensure you have met the following requirements:
+- Node.js installed on your system.
+- A code editor of your choice (e.g., Visual Studio Code).
+
+### Installation
+1. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/your-repo-url.git
+   cd your-repo-directory
+
+Install the project dependencies: npm install
+
+## Usage
+### Running the Application
+To start the application, follow these steps:
+
+1. Start the development server: npm run dev
+2. Start the JSON server to persist non-profit organization data:
+3.  Open your web browser and visit http://localhost:3000 to access the application.
+
+Now you can explore featured NPOs, search for NPOs, visit their websites, and even add your own non-profit organization to the database!
+
+
+
