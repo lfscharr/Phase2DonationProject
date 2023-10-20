@@ -1,3 +1,7 @@
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 # Non-Profit Organization (NPO) Project
 
 Welcome to our Non-Profit Organization (NPO) project! This application allows you to explore featured NPOs, search through them, visit their websites, and even add your own non-profit organization to the database. This README provides you with essential information on how to get started with the application.
@@ -35,6 +39,3 @@ To start the application, follow these steps:
 3.  Open your web browser and visit http://localhost:3000 to access the application.
 
 Now you can explore featured NPOs, search for NPOs, visit their websites, and even add your own non-profit organization to the database!
-
-
-
