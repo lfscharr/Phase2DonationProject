@@ -12,8 +12,6 @@ Welcome to our Non-Profit Organization (NPO) project! This application allows yo
   - [Installation](#installation)
 - [Usage](#usage)
   - [Running the Application](#running-the-application)
-- [Contribute](#contribute)
-- [License](#license)
 
 ## Getting Started
 
